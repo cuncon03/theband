@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    
+}
+#header{
+    height:100px;
+    background-color: #fff;
+    position:relative;
+}
+#header #nav{
+    margin-right: 100px;
+    position: absolute;
+    right:0;
+    display:inline-block;
+}
+#header #nav li{
+    display:inline-block;
+    line-height:100px;
+}
+#nav li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 15px;
+
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+#header #nav .home{
+    border: 2px solid #000;
+}
+#search-btn .search-icon{
+    position: absolute;
+    right:0;
+    line-height: 100px;
+    font-size:30px;
+    margin-right: 40px;
+
+}
+#searh-btn{
+    height:100px;
+    position: absolute;
+    display:inline-block;
+}
+#slider{
+    height:500px;
+    background: #ccc;
+}
